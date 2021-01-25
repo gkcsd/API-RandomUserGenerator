@@ -15,3 +15,13 @@ img {
   width: 70vh;
   height: 38vh;
 }
+
+button {
+  margin: 0 10px;
+  padding: 7px 7px;
+  background-color: rgb(8, 156, 161);
+  border-radius: 15px;
+  color: white;
+  border-style: none;
+  justify-content: center;
+}

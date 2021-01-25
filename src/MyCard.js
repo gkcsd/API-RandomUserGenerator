@@ -30,18 +30,18 @@ const MyCard = ({ details }) => {
             {details.location?.city}
           </p>
           <p style={{ fontStyle: "italic", fontSize: "13.5px" }}>
-            <span className="pr-4">
+            <button>
               <FaEnvelope />
               {details.email}
-            </span>
-            <span className="pr-4">
+            </button>
+            <button>
               <FaBirthdayCake />
               {details.dob?.age}
-            </span>
-            <span className="pr-4">
+            </button>
+            <button>
               <FaPhone />
               {details.phone}
-            </span>
+            </button>
           </p>
         </CardText>
       </CardBody>
