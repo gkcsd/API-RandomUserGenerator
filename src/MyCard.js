@@ -12,7 +12,7 @@ const MyCard = ({ details }) => {
     <Card className="mycard">
       <CardBody className="text-center">
         <img
-          height="200"
+          height="150"
           width="150"
           className="rounded-circle img-thumbnail border-danger"
           src={details.picture?.large}
